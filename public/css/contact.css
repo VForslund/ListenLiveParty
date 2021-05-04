@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+
+body {
+  background-color: #191414;
+  margin: 0;
+  padding: 0;
+}
+
+.contactUsheader {
+  padding: 40px;
+  color: WHITE;
+  font-size: 50px;
+  animation: slide-in;
+  align-content: center;
+  text-align: center;
+}
+
+.Nav-container{
+  align-items: vertical;
+  align-content: center;
+  text-align: center;
+}
+
+.navlogo {
+  left: 70px;
+  transform: translate(-50%, 0);
+  top: 0px;
+  position: fixed;
+}
+
+.Nav-bar {
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  background-color: #1DB954;
+  padding: 12px 21px;
+}
+
+.Nav-bar a {
+  font-family: "UBUNTU", sans-serif;
+  color: #191414;
+  padding: 12px 21px;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.Nav-bar a:hover {
+  background-color: #ffffff;
+}
+
+.Nav-bar a.active {
+  color: #FFFFFF;
+}
+
+.Nav-bar a.active:hover {
+  background-color: transparent;
+}
+
+.ContactUs {
+  font-size: 30px;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  align-items: center;
+}
+
+.ourInfo {
+  align-items: vertical;
+  align-content: center;
+  text-align: center;
+  font-size: 30px;
+}
+
+.Nav-bar {
+  font-family: "UBUNTU", sans-serif;
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  background-color: #1DB954;
+  padding: 12px 21px;
+}
+
+.Nav-bar a {
+  color: #191414;
+  padding: 12px 21px;
+  font-size: 24px;
+}
+
+.Nav-bar a:hover {
+  background-color: #ffffff;
+}
+
+.Nav-bar a.active {
+  color: #FFFFFF;
+}
+
+.Nav-bar a.active:hover {
+  background-color: transparent;
+}
+
+.contain {
+  align-items: vertical;
+  align-content: center;
+  text-align: center;
+}
+
+.company-name {
+  align-items: vertical;
+  text-align: center;
+  font-size: 30px;
+}
+
+.Address {
+  align-items: vertical;
+  align-content: center;
+  text-align: center;
+  font-size: 30px;
+}
+
+.about-us {
+  align-content: center;
+  text-align: center;
+}

@@ -1,0 +1,209 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+
+/* Spotify Color palette
+
+  GREEN: #1DB954
+  WHITE: #FFFFFF
+  BLACK: #191414
+
+*/
+body {
+  background-color: #191414;
+  margin: 0;
+  padding: 0;
+}
+
+.navlogo {
+  left: 70px;
+  transform: translate(-50%, 0);
+  top: 0px;
+  position: fixed;
+}
+
+.Nav-container{
+  align-items: vertical;
+  align-content: center;
+  text-align: center;
+}
+
+.Nav-bar {
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  background-color: #1DB954;
+  padding: 12px 21px;
+}
+
+.Nav-bar a {
+  font-family: "UBUNTU", sans-serif;
+  color: #191414;
+  padding: 12px 21px;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.Nav-bar a:hover {
+  background-color: #ffffff;
+}
+
+.Nav-bar a.active {
+  color: #FFFFFF;
+}
+
+.Nav-bar a.active:hover {
+  background-color: transparent;
+}
+
+.Main-container {
+  background-position: center;
+  background-size: 100% 100%;
+  position: relative;
+  font-family: "UBUNTU", sans-serif;
+}
+
+.Main-container img {
+  display: block;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 60%;
+  height: 500px;
+  object-fit: cover;
+}
+
+.First-txt {
+  position: absolute;
+  color: #FFFFFF;
+  font-size: 32px;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+}
+
+.Second-txt {
+  position: absolute;
+  top: 60%;
+  color: #FFFFFF;
+  font-size: 24px;
+  left: 50%;
+  transform: translate(-50%, -60%);
+}
+
+.Player-container {
+  position: relative;
+  overflow: hidden;
+  margin: auto;
+  border: 2px #0000ff;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #191414;
+  width: auto;
+  padding-top: 7px;
+}
+
+.Player-container img{
+  height: 300px;
+  width: 300px
+}
+.playButton{
+  vertical-align: middle;
+}
+
+.Player-container a {
+  position: relative;
+  vertical-align: middle;
+  width: auto;
+}
+.playpauseContainer{
+  height: 74px;
+}
+.toggleButton {
+  border: 0;
+  background: transparent;
+  box-sizing: border-box;
+  width: 0;
+  height: 74px;
+  border-color: transparent transparent transparent #1DB954;
+  transition: 100ms all ease;
+  cursor: pointer;
+  border-style: solid;
+  border-width: 37px 0 37px 60px;
+}
+.toggleButton.paused {
+  border-style: double;
+  border-width: 0px 0 0px 60px;
+}
+.toggleButton:hover {
+  border-color: transparent transparent transparent #404040;
+}
+
+.Server-Test-container textarea {
+  width: 500px;
+  height: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 15%;
+  height: 15px;
+  border-radius: 5px;
+  background: #ffffff;
+  outline: none;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #1DB954;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #04AA6D;
+  cursor: pointer;
+}
+
+
+.sliderTime {
+  -webkit-appearance: none;
+  width: 25%;
+  height: 15px;
+  border-radius: 5px;
+  background: #ffffff;
+  outline: none;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.sliderTime::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #1DB954;
+  cursor: pointer;
+}
+
+.sliderTime::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #04AA6D;
+  cursor: pointer;
+}
+
+.Progressslidecontainer{
+  color: #ffffff;
+}
