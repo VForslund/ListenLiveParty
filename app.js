@@ -13,7 +13,7 @@ const spotifyApi = new SpotifyWebApi();
 
 // Static Files
 const client_id = '598e7602035a4a1790be6b37e4d786ca';
-const client_secret = '020025f7f0174443b389f3e730442c7e';
+const client_secret = '';
 const redirect_uri = 'http://localhost:8080/callback';
 
 

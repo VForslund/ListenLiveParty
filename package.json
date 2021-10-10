@@ -1,13 +1,13 @@
 {
-  "name": "group6",
+  "name": "Listen Live Party",
   "version": "1.0.0",
-  "description": "School spotify application",
+  "description": "An application for playing the same spotify music to many devices",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon app.js"
   },
-  "author": "",
+  "author": "Victor Forslund",
   "license": "ISC",
   "dependencies": {
     "cookie-parser": "^1.4.5",
